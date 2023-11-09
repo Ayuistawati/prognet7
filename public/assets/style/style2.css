@@ -1,0 +1,78 @@
+body {
+    background-color: #000; /* Warna latar belakang hitam */
+    color: #fff; /* Warna teks putih */
+    font-family: Arial, sans-serif; /* Jenis font */
+}
+nav {
+    background-color: #333;
+  }
+  
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .menu li {
+    float: left;
+  }
+  
+  .menu li a {
+    display: block;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .menu li a:hover {
+    background-color: #555;
+  }
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #fff;
+    background-color: transparent; /* Membuat input transparan */
+    color: #fff;
+    border-radius: 5px;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 10px;
+    background: url('down-arrow.png') no-repeat;
+    background-position: right center;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* Warna latar belakang tombol */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Warna latar belakang tombol saat dihover */
+}

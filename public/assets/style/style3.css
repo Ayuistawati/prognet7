@@ -1,0 +1,45 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #111; /* Warna latar belakang untuk kontainer */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container h1 {
+    color: #007bff;
+}
+
+.container p {
+    margin: 10px 0;
+}
+
+.container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
